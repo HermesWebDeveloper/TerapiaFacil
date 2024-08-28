@@ -1,3 +1,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.hover-delay:hover {
+    transition-property: background-color, transform; /* Propriedades a serem animadas */
+    transition-duration: 0.2s; /* Duração da transição */
+    transition-timing-function: ease-in-out; /* Função de timing para suavidade */
+    transition-delay: 0.001s; /* Atraso antes de iniciar a transição */
+}
