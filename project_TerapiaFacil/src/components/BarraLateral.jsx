@@ -5,7 +5,7 @@ function BarraLateral() {
 
     return (
         <>
-            <div className="w-64 h-auto bg-slate-900 text-white flex flex-col">
+            <div className="w-64 min-h-screen bg-slate-900 text-white flex flex-col">
                 <div className='flex flex-row items-center mt-4'>
                     <img src='https://upload.wikimedia.org/wikipedia/commons/d/d5/Tailwind_CSS_Logo.svg' className='w-10 h-10 ml-4'></img>
                     <p className="p-4 text-xl font-semibol">Terapia Fácil</p>
